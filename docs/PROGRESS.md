@@ -32,9 +32,10 @@ Deployed by the owner on 2026-11-13 (`8245f3c`). Checked from outside afterwards
 title, meta description, canonical link and JSON-LD in the page; `robots.txt`
 (text/plain), `sitemap.xml` (XML) and `og.png` (image/png) served; health ok with the
 same artifact hashes; Figure 8 case 1.210 → 65.22 / 39.52 / 5.63 %; accounts off; old
-app answers on port 8444. Still the owner's: add the site to Google Search Console
-(URL-prefix property, HTML-file verification — the file goes into `frontend/public/`)
-and submit `sitemap.xml` there.
+app answers on port 8444. Google Search Console: verification file
+`frontend/public/googlef9a39eabf6cd9daf.html` deployed (`7d0a105`) and served; the owner
+reports the property verified and `sitemap.xml` submitted on 2026-11-13. The file must
+stay in place (Google re-checks it).
 
 Asked for by the owner: make the calculator easier to find in Google. No analytics,
 no third-party scripts, nothing sent from the site.
